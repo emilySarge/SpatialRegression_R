@@ -45,6 +45,7 @@ plot(median.aqi)
 dev.off()
 median.aqi
 ```
+![median_aqi](https://github.com/user-attachments/assets/515b9345-6d59-40a6-9fd2-05b256f54677)
 
 # Q2
 
@@ -69,6 +70,7 @@ dev.off()
 
 ggmarg
 ```
+![ggmarg](https://github.com/user-attachments/assets/b2383195-84ca-4ab1-b753-8dac34a435c6)
 
 # Q3
 
@@ -97,6 +99,7 @@ dev.off()
 
 ols_resid
 ```
+![ols_resid](https://github.com/user-attachments/assets/c00ace5f-6cf0-4a9c-b9dd-73c96d910ba7)
 
 The counties with high residuals have large areas and large populations. They are also highly urbanized, so a lot of air pollutants compared to the rest of the state's rural areas. These few points would be significantly different from the majority if the counties, and that shows up in their high residuals.
 
@@ -154,6 +157,7 @@ dev.off()
 
 fitted_sem
 ```
+![fitted_sem](https://github.com/user-attachments/assets/663c9c3c-b228-44fe-9b86-b8247b68d524)
 
 # Q8
 
@@ -168,6 +172,7 @@ dev.off()
 par(mfrow=c(2,1)) 
 reg.sem;median.aqi
 ```
+![resid_sem](https://github.com/user-attachments/assets/17327a2b-fa9d-48bd-bcc9-fa4e3f265aaf)
 
 Overall the residuals map is darker colored than the raw median map. The scales are not very comparable since they are very offset from each other.
 
